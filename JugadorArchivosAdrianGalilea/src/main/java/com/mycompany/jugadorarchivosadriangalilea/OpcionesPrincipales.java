@@ -252,7 +252,11 @@ public class OpcionesPrincipales {
             System.out.println("Ingrese ID del jugador a mostrar:");
             try {
                 comprobacion = Integer.parseInt(scanner.nextLine());
-                b=false;
+                if (comprobacion<=0){
+                    b=true;
+                }else{
+                    b=false;
+                }
             } catch (Exception e) {
                 b = true;
             }
