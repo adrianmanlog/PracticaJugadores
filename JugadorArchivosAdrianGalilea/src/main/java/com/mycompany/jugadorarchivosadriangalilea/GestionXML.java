@@ -13,10 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * La clase `GestionXML` es una implementación de la clase abstracta `GestionFichero`
+ * La clase GestionXML es una implementación de la clase abstracta GestionFichero
  * que permite gestionar la información de jugadores utilizando un archivo XML.
- * Esta clase ofrece métodos para agregar, eliminar, modificar, obtener y listar jugadores
- * almacenados en un archivo XML, garantizando la persistencia de los datos.
+ * Esta clase tiene métodos para agregar, eliminar, modificar, obtener y listar jugadores
+ * almacenados en un archivo XML, garantizando la integridad de los datos.
  * Utiliza la API de DOM (Document Object Model) para la manipulación del archivo XML.
  */
 public class GestionXML extends GestionFichero {

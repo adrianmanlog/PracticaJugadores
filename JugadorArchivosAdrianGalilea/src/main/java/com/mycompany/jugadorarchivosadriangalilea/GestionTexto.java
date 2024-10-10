@@ -7,12 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * La clase `GestionTexto` extiende de la clase abstracta `GestionFichero` y proporciona una implementación
+ * La clase GestionTexto extiende de la clase abstracta GestionFichero y proporciona una implementación
  * para gestionar jugadores utilizando archivos de texto plano.
  * Permite realizar operaciones como agregar, eliminar, modificar, obtener y listar jugadores
  * almacenados en un archivo de texto.
- * Cada línea del archivo representa un jugador y se almacena en el formato proporcionado por
- * el método `toString()` de la clase `Jugador`.
+ * Cada línea del archivo representa un jugador y se almacena en el indicado en la practica
  */
 public class GestionTexto extends GestionFichero {
 

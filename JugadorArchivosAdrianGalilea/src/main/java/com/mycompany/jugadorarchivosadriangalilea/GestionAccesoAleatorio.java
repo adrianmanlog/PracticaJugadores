@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
     /**
-     * La clase `GestionAccesoAleatorio` extiende de la clase abstracta `GestionFichero` y proporciona una implementación
+     * La clase GestionAccesoAleatorio extiende de la clase abstracta GestionFichero y proporciona una implementación
      * para gestionar jugadores utilizando un archivo de acceso aleatorio. Esta clase permite realizar operaciones como
-     * agregar, eliminar, modificar, obtener y listar jugadores almacenados en un archivo utilizando la clase `RandomAccessFile`.
+     * agregar, eliminar, modificar, obtener y listar jugadores almacenados en un archivo utilizando la clase RandomAccessFile.
      * Cada jugador se almacena con un tamaño de registro fijo para permitir el acceso aleatorio por posición.
      */
     public class GestionAccesoAleatorio extends GestionFichero {

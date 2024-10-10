@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * Clase que contiene las opciones principales del menú para la gestión de jugadores.
- * Proporciona funcionalidades para dar de alta, baja, modificar, listar jugadores
+ * Tiene las funciones para dar de alta, baja, modificar, listar jugadores
  * y configurar la gestión de archivos.
  */
 public class OpcionesPrincipales {

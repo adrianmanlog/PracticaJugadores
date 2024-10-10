@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * La clase `GestionObjetos` extiende de la clase abstracta `GestionFichero` y proporciona una implementación
+ * La clase GestionObjetos extiende de la clase abstracta GestionFichero y proporciona una implementación
  * para gestionar jugadores utilizando archivos de objetos serializables.
  * Esta clase permite realizar operaciones como agregar, eliminar, modificar, obtener y listar jugadores
  * almacenados en un archivo binario, utilizando la serialización de Java para manejar los datos.
